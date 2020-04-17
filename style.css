@@ -8,7 +8,11 @@ body
     background: #cccccc;
 }
 
-h1 {
+.title-header {
+    padding-left: 20px;
+}
+
+.center-title {
     text-align: center;
 }
 
@@ -35,9 +39,6 @@ em strong {
     
 }
 
-h2 {
-    text-align: center;
-}
 
 ul{ 
     display: inline-block; 
