@@ -9,19 +9,19 @@ body
 }
 
 h1 {
-    text-align: center
+    text-align: center;
 }
 
 p {
-    text-align: center
+    text-align: center;
 }
 
 #mission {
-   font-size: 20px
+   font-size: 20px;
 }
 
 em strong {
-    color: red
+    color: red;
 }
 
 .itens {
@@ -30,8 +30,22 @@ em strong {
 
 .Beneficits {
     background: white;
+    padding: 20px;
+    padding: 30px;
+    
 }
 
 h2 {
     text-align: center;
 }
+
+ul{ 
+    display: inline-block; 
+    vertical-align: top; 
+    width: 20%; 
+    margin-right: 15%; 
+  }
+  
+  .beneficitsimage { 
+    width: 50%; 
+  }
