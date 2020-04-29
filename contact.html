@@ -9,7 +9,7 @@
     <body>
         <header>
             <div class="box">
-                <h1><img src="images/logo.png"></h1>
+                <h1><img src="images/logo.png" alt="Barbershop Alura logo"></h1>
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -23,43 +23,43 @@
         <main>
             <form>
                 <label for="nameandsurname">Name and surname *</label>
-                <input type="text" id="nameandsurname" class="input-default"> 
+                <input type="text" id="nameandsurname" class="input-default" required placeholder="Your name here"> 
 
                 <label for="email">Email *</label>
-                <input type="text" id="email" class="input-default">
+                <input type="email" id="email" class="input-default" required placeholder="example@email.com">
 
                 <label for="cellphone">Cell phone *</label>
-                <input type="text" id="cellphone" class="input-default">
+                <input type="tel" id="cellphone" class="input-default" required placeholder=" (xxx) xxx-xxxx">
 
                 <label for="message">Message </label>
                 <textarea cols="70" rows="10" id="message" class="input-default"></textarea>
 
-                <div>
-                    <p>How do you preferer our contact?</p>
+                <fieldset>
+                    <legend>How do you preferer our contact?</legend>
                     <label for="radio-email"><input type="radio" name="contact" value "email" id="radio-email">Email</label>
                     
                     <label for="radio-cellphone"><input type="radio" name="contact"  value "cellphone" id="radio-cellphone">Phone</label>
                     
-                    <label for="radio-whatsapp"><input type="radio" name="contact" value "whatsapp" id="radio-whatsapp">Whatsapp</label>
-                </div>  
+                    <label for="radio-whatsapp"><input type="radio" name="contact" value "whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                </fieldset>  
 
-                <div>
-                    <p>Which period do you prefer?</p>
+                <fieldset>
+                    <legend>Which period do you prefer?</legend>
                     <select>
                         <option>Morning</option>
                         <option>Afternoon</option>
                         <option>Evening</option>
                     </select>
-                </div>
+                </fieldset>
 
-                <label class="checkbox"><input type="checkbox" >Sign me up for the newsletter
+                <label class="checkbox"><input type="checkbox" checked>Sign me up for the newsletter
                 </label>
                 <input type="submit" value="Send form">
             </form>
         </main>
 
         <footer>
-            <img src="/images/white-logo.png">
+            <img src="/images/white-logo.png" alt="Barbershop Alura logo">
             <p class="copyright">&copy; Copyright Alura Barbershop - 2020</p>
         </footer>
     </body>
