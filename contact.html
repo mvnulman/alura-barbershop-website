@@ -21,7 +21,33 @@
         </header>
 
         <main>
+            <form>
+                <label for="nameandsurname">Name and surname *</label>
+                <input type="text" id="nameandsurname" class="input-default"> 
 
+                <label for="email">Email *</label>
+                <input type="text" id="email" class="input-default">
+
+                <label for="cellphone">Cell phone *</label>
+                <input type="text" id="cellphone" class="input-default">
+
+                <label for="message">Message </label>
+                <textarea cols="70" rows="10" id="message" class="input-default"></textarea>
+
+                <div>
+                    <p>How do you preferer our contact?</p>
+                    <label for="radio-email"><input type="radio" name="contact" value "email" id="radio-email">Email</label>
+                    
+                    <label for="radio-cellphone"><input type="radio" name="contact"  value "cellphone" id="radio-cellphone">Phone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contact" value "whatsapp" id="radio-whatsapp">Whatsapp</label>
+                    
+                </div>  
+
+                <label class="checkbox"><input type="checkbox" >Sign me up for the newsletter
+                </label>
+                <input type="submit" value="Send form">
+            </form>
         </main>
 
         <footer>
