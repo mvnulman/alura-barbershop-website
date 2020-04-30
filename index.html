@@ -8,36 +8,59 @@
      <head>
         <meta charset="TUF-8">
         <title>Alura Barbershop</title>
-        <link rel="stylesheet" href="style-home.css">
 
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css"> 
      </head>
 
     <!--"body" contains the infos that we want to show on the page / website-->
      <body>
-        <header>
-           <h1 class="title-header">Alura Barbershop</h1>
-        </header>
-        <img id= "banner" src="banner.jpg">
-        <div class="principal">
-               <h2 class="center-title">About the Barbershop Alura</h2>
+         <header>
+         <div class="box">
+             <h1><img src="images/logo.png"></h1>
 
-               <p>Located in the heart of the city, <strong>Barbershop Alura</strong> offers to the market the best for your hair and beard. Founded in 2019, Barbershop Alura is already prominent in the city and conquers new customers every day.</p>
-      
-               <p id= "mission"><em>Our mission is: <strong>"Provide automatic estimation and quality of life to customers".</strong></p></em>
-      
-               <p>We offer experienced professionals and attuned to changes in the fashion world. The service has a standard of excellence and agility, ensuring quality and satisfaction of our customers.</p>
+             <nav>
+                 <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="products.html">Products</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                 </ul>
+             </nav>
          </div>
+         </header>
+
+      <img class="banner" src="banner.jpg">
+
+      <main>
+            <section class="main">
+                     <h2 class="main-title">About the Barbershop Alura</h2>
+
+                     <p>Located in the heart of the city, <strong>Barbershop Alura</strong> offers to the market the best for your hair and beard. Founded in 2019, Barbershop Alura is already prominent in the city and conquers new customers every day.</p>
+            
+                     <p id= "mission"><em>Our mission is: <strong>"Provide automatic estimation and quality of life to customers".</strong></p></em>
+            
+                     <p>We offer experienced professionals and attuned to changes in the fashion world. The service has a standard of excellence and agility, ensuring quality and satisfaction of our customers.</p>
+            </section>
+
 
             <!--"Section - Beneficits" To iniciate another section in our website, with the beneficits of our services-->
-         <div class="Beneficits">
-               <h3 class="center-title">Beneficits</h3>
+            <section class="beneficits">
+               <h3 class="main-title">Beneficits</h3>
+
                <ul>
                   <li class="itens">Customer Service</li>
                   <li class="itens">Good Location</li>
                   <li class="itens">High qualified Barbers</li>
                   <li class="itens">Brand New structure</li>
                </ul>
+               
                <img src="beneficits.jpg" class="beneficitsimage"> 
-         </div>
+            </section>
+         </main>
+         
+         <footer>
+            <img src="/images/white-logo.png">
+            <p class="copyright">&copy; Copyright Alura Barbershop - 2020</p>
+        </footer>
      </body>   
 </html>

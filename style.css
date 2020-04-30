@@ -155,3 +155,33 @@ td, th{
     text-align: center;
 }   
 
+/* CSS from initial page (index.html)*/
+.banner{
+    width: 100%;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.main p{
+    margin: 0 0 1em;
+}
+
+.main strong{
+    font-weight: bold;
+}
+
+.main em{
+    font-style: italic;
+}
+
+.beneficits{
+    margin: 0 0 1em;
+}
+
+.beneficitsimage{
+    width: 60%;
+}
