@@ -98,8 +98,7 @@ footer {
 }
 
 main {
-    width: 940px;
-    margin: 0 auto;
+
 }
 
 form {
@@ -171,6 +170,13 @@ td, th {
     clear: left;
 }
 
+.main{
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .main p {
     margin: 0 0 1em;
 }
@@ -191,34 +197,48 @@ td, th {
 
 .googlemap {
     padding: 3em 0;
+    background:linear-gradient(#fefefe, #888888);
+}
+
+.googlemap-content{
+    width: 940px;
+    margin: 0 auto;
 }
 
 .googlemap p {
     margin: 0 0 2em;
     text-align: center;
+    
 }
 
 .beneficits {
-    margin: 0 0 1em;
-    padding: 3em 0;
+     padding: 3em 0;
+    background: #888888;
+    
 }
 
-.content-beneficits{
+.content-beneficits {
     width: 640px;
     margin: 0 auto;
+    
 }
 
-.list-beneficits{
+.list-beneficits {
     width: 40%;
     display: inline-block;
     vertical-align: top;
+    
 }
 
 .itens{
     line-height: 1.5;
 }
-.itens:first-child{
+.itens:first-child {
     font-weight: bold;
+}
+
+.itens:before {
+    content: "★";    
 }
 
 .image-beneficits {
